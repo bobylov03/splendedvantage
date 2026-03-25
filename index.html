@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splendid Vantage LTD - Technical Ship Management</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo-container">
+                    <img src="logo.png" alt="Splendid Vantage LTD" class="logo">
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-icon">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Ship hull -->
+                        <path d="M40 140 L100 120 L160 140 L150 160 L50 160 Z" 
+                              fill="var(--gold)" 
+                              stroke="var(--gold-light)" 
+                              stroke-width="2"/>
+                        
+                        <!-- Ship deck levels -->
+                        <rect x="70" y="90" width="60" height="30" 
+                              fill="var(--gold)" 
+                              stroke="var(--gold-light)" 
+                              stroke-width="2"/>
+                        <rect x="80" y="70" width="40" height="20" 
+                              fill="var(--gold)" 
+                              stroke="var(--gold-light)" 
+                              stroke-width="2"/>
+                        <rect x="90" y="50" width="20" height="20" 
+                              fill="var(--gold)" 
+                              stroke="var(--gold-light)" 
+                              stroke-width="2"/>
+                        
+                        <!-- Windows -->
+                        <circle cx="85" cy="105" r="3" fill="var(--navy-dark)"/>
+                        <circle cx="100" cy="105" r="3" fill="var(--navy-dark)"/>
+                        <circle cx="115" cy="105" r="3" fill="var(--navy-dark)"/>
+                        
+                        <circle cx="92" cy="80" r="2.5" fill="var(--navy-dark)"/>
+                        <circle cx="108" cy="80" r="2.5" fill="var(--navy-dark)"/>
+                        
+                        <!-- Mast -->
+                        <line x1="100" y1="50" x2="100" y2="30" 
+                              stroke="var(--gold)" 
+                              stroke-width="3"/>
+                        
+                        <!-- Flag -->
+                        <path d="M100 30 L115 35 L100 40 Z" 
+                              fill="var(--gold-light)"/>
+                        
+                        <!-- Wave decorations -->
+                        <path d="M20 165 Q35 160 50 165 T80 165 T110 165 T140 165 T170 165 T200 165" 
+                              stroke="var(--gold)" 
+                              stroke-width="2" 
+                              fill="none" 
+                              opacity="0.4"/>
+                        <path d="M10 172 Q25 167 40 172 T70 172 T100 172 T130 172 T160 172 T190 172" 
+                              stroke="var(--gold-light)" 
+                              stroke-width="2" 
+                              fill="none" 
+                              opacity="0.3"/>
+                    </svg>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-main">SPLENDID VANTAGE LTD</span>
+                    <span class="title-sub">Technical Ship Management</span>
+                </h1>
+                <p class="hero-description">
+                    Your trusted partner in comprehensive technical ship management services worldwide
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Comprehensive technical ship management solutions tailored to your fleet's needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 6.5a6 6 0 0 1 6 6v6H6v-6a6 6 0 0 1 6-6Z" stroke-width="2"/>
+                            <circle cx="12" cy="12.5" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Technical Maintenance & Repairs</h3>
+                    <p>Complete technical maintenance programs, planned maintenance systems (PMS), and emergency repair coordination for vessels of all types and sizes. Our experienced technical superintendents ensure optimal performance and regulatory compliance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke-width="2"/>
+                            <path d="M9 9h6M9 13h6M9 17h4" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Certification & Surveys</h3>
+                    <p>Full support for statutory and class surveys, PSC inspections, vetting preparations (SIRE, CDI, RIGHTSHIP), flag and port state compliance. We manage all certification requirements and liaise with classification societies.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" stroke-width="2"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Supply Chain Management</h3>
+                    <p>Efficient procurement and logistics of spare parts, stores, provisions, and bunkers. Global supplier network, competitive pricing, quality assurance, and timely delivery to any port worldwide.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10" stroke-width="2"/>
+                            <path d="M12 6v6l4 2" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Drydocking & Major Repairs</h3>
+                    <p>Complete drydocking project management from planning to execution. Scope preparation, shipyard selection, specification development, contractor supervision, budget control, and quality assurance throughout the entire drydocking process.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke-width="2"/>
+                            <circle cx="9" cy="7" r="4" stroke-width="2"/>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Crew Management Support</h3>
+                    <p>Coordination with crew managers, training oversight, seafarer welfare programs, medical management, and ensuring compliance with MLC 2006. Supporting optimal crew performance and retention.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke-width="2"/>
+                            <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Documentation & Reporting</h3>
+                    <p>Comprehensive technical documentation management, regular performance reports, OPEX budgeting and monitoring, condition surveys, and detailed technical specifications. Transparent communication with vessel owners.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" stroke-width="2"/>
+                            <path d="M22 4L12 14.01l-3-3" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Quality & Safety Management</h3>
+                    <p>Implementation and maintenance of ISM, ISPS codes, ISO certifications, safety management systems, incident investigation, root cause analysis, and continuous improvement programs to ensure the highest standards.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="3" stroke-width="2"/>
+                            <path d="M12 1v6m0 6v6M1 12h6m6 0h6" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Performance Monitoring</h3>
+                    <p>Fuel efficiency analysis, engine performance monitoring, hull and propeller condition assessment, voyage optimization recommendations, and implementation of energy-saving devices to reduce operational costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Splendid Vantage LTD</h2>
+                    <div class="title-underline"></div>
+                    <p class="about-description">
+                        <strong>Splendid Vantage LTD</strong> is your dedicated partner in comprehensive technical ship management services. 
+                        We provide end-to-end technical management solutions for vessel owners and operators worldwide, ensuring safety, 
+                        reliability, and operational efficiency throughout the entire lifecycle of your fleet.
+                    </p>
+                    <p class="about-description">
+                        Our team of experienced marine engineers and technical superintendents brings decades of combined expertise 
+                        across all vessel types including bulk carriers, tankers, container ships, and specialized vessels. We understand 
+                        the complexities of modern maritime operations and deliver tailored solutions that optimize performance while 
+                        maintaining the highest safety and environmental standards.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-number">24/7</div>
+                            <div class="feature-text">Round-the-clock technical support and emergency response</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-number">100%</div>
+                            <div class="feature-text">Compliance with international maritime regulations and standards</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-number">Global</div>
+                            <div class="feature-text">Worldwide coverage with extensive port and supplier network</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-text-logo">
+                        <div class="text-logo-content">
+                            <div class="text-logo-icon">
+                                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 70 L50 60 L80 70 L75 80 L25 80 Z" 
+                                          fill="var(--gold)" opacity="0.3"/>
+                                    <rect x="35" y="45" width="30" height="15" 
+                                          fill="var(--gold)" opacity="0.3"/>
+                                    <rect x="40" y="35" width="20" height="10" 
+                                          fill="var(--gold)" opacity="0.3"/>
+                                    <line x1="50" y1="35" x2="50" y2="25" 
+                                          stroke="var(--gold)" stroke-width="2" opacity="0.3"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-logo-main">SPLENDID<br>VANTAGE LTD</h3>
+                            <div class="text-logo-line"></div>
+                            <p class="text-logo-sub">Technical Ship<br>Management</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="advantages" id="expertise">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Expertise</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">What sets us apart in technical ship management</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-number">01</div>
+                    <h3>Experienced Team</h3>
+                    <p>Our technical superintendents are highly qualified marine engineers with extensive sea-going and shore-based experience. Each team member brings specialized knowledge in specific vessel types and equipment, ensuring expert guidance for your fleet.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">02</div>
+                    <h3>Customized Solutions</h3>
+                    <p>We recognize that every vessel and owner has unique requirements. Our services are tailored to match your specific operational profile, trading patterns, and business objectives, providing maximum value and efficiency.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">03</div>
+                    <h3>Global Network</h3>
+                    <p>With established relationships with shipyards, suppliers, and service providers worldwide, we ensure competitive pricing and reliable service delivery in any port. Our network enables prompt response to technical issues anywhere in the world.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">04</div>
+                    <h3>Cost Optimization</h3>
+                    <p>Through proactive maintenance planning, efficient procurement strategies, and performance monitoring, we help reduce operational expenditure while maintaining vessel reliability. Our approach focuses on long-term value rather than short-term savings.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">05</div>
+                    <h3>Regulatory Compliance</h3>
+                    <p>We stay ahead of evolving international maritime regulations including IMO, flag state, and port state requirements. Our proactive approach ensures your vessels maintain compliance and avoid costly delays or detentions.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">06</div>
+                    <h3>Technology Integration</h3>
+                    <p>We leverage modern fleet management software, condition monitoring systems, and data analytics to optimize vessel performance, predict maintenance needs, and provide detailed reporting to support informed decision-making.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-underline"></div>
+                    <p class="contact-description">
+                        Ready to discuss your technical ship management needs? Contact us today and discover 
+                        how our expertise can optimize your fleet operations and reduce costs.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:office@splendidvantage.com">office@splendidvantage.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke-width="2"/>
+                                    <circle cx="12" cy="10" r="3" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Office</h4>
+                                <p>RM 1203, 12/F TOWER 3 CHINA
+HONG KONG CITY, 33 CANTON RD
+TSIM SHA TSUI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder=" ">
+                            <label for="phone">Phone</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-brand">
+                        <h3 class="footer-company-name">SPLENDID VANTAGE LTD</h3>
+                        <div class="footer-accent-line"></div>
+                    </div>
+                    <p class="footer-tagline">Technical Ship Management</p>
+                    <p class="footer-description">
+                        Professional technical ship management services for vessel owners worldwide. 
+                        Ensuring safety, efficiency, and regulatory compliance.
+                    </p>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2026 Splendid Vantage LTD. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
